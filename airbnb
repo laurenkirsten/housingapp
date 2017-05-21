@@ -1,0 +1,1902 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+				<head>
+				<!-- Meta Content from user -->
+				<meta http-equiv="X-UA-Compatible" content="IE=9">
+				<meta name="title" content="Airbnbclone" />
+				<meta name="keywords" content="Airbnb clone from ninehertz" />
+				<meta name="description" content="airbnb clone from nine hertz" />
+				<meta http-equiv="X-UA-Compatible" content="IE=edge">
+				<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+			
+								<script src="http://demo2server.in/sites/ci/airbnbclone/js/cufon-yui_2.js" ></script>
+				<!-- End of meta content -->
+				<title>Airbnbclone</title>
+                <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+				<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Cogzidel" />
+				<link href="http://demo2server.in/sites/ci/airbnbclone/css/templates/blue/common.css" media="screen" rel="stylesheet" type="text/css" />
+				<link href="http://demo2server.in/sites/ci/airbnbclone/css/templates/blue/owl.carousel.css" media="screen" rel="stylesheet" type="text/css" />
+				<link href="http://demo2server.in/sites/ci/airbnbclone/css/templates/blue/owl.theme.css" media="screen" rel="stylesheet" type="text/css" />
+				<link href="http://demo2server.in/sites/ci/airbnbclone/css/templates/blue/listyourspace.css" media="screen" rel="stylesheet" type="text/css" />
+				<!-- Latest compiled and minified CSS -->
+				<!--<link rel="stylesheet" href="http://demo2server.in/sites/ci/airbnbclone/css/templates/blue/bootstrap.css"  type="text/css" >
+<!-- Latest compiled and minified CSS -->
+				<!-- <link rel="stylesheet" href="http://demo2server.in/sites/ci/airbnbclone/css/templates/blue/bootstrap.min.css"  type="text/css" >
+<!-- Optional theme -->
+				<!-- <link rel="stylesheet" href="http://demo2server.in/sites/ci/airbnbclone/css/templates/blue/bootstrap-theme.css"  type="text/css" >
+
+<!-- Optional theme -->
+				<!-- <link rel="stylesheet" href="http://demo2server.in/sites/ci/airbnbclone/css/templates/blue/bootstrap-theme.min.css"  type="text/css" >
+
+
+
+<!--<style>
+@font-face {
+font-family:'SignPainter-HouseScript';
+src:url('signpainterhousescript.eot');
+src:url('signpainterhousescript.eot?#iefix') format('embedded-opentype'), url('signpainterhousescript.woff') format('woff'), url('signpainterhousescript.ttf') format('truetype'), url('signpainterhousescript.svg#signpainterhousescript') format('svg');
+font-weight:normal;
+font-style:normal
+}
+@font-face {
+font-family:'HelveticaNeue';
+src:url('helvetica.eot');
+src:url('helvetica.eot?#iefix') format('embedded-opentype'), url('helvetica.woff') format('woff'), url('helvetica.ttf') format('truetype'), url('helvetica.svg#helvetica') format('svg');
+font-weight:normal;
+font-style:normal
+}
+body {
+	font-size:80%;
+	background:#fff;
+	margin:0!important;
+	padding:0;
+	font:normal 11px Helvetica Neue, sans-serif;
+	text-align:center;
+	color:#393c3d;
+}
+html>body {
+	font-size:9.5pt
+}
+html {
+	min-height:100%;
+	height:auto
+}
+form, table, p, h1, h2, h3, h4, h5, h6, ul, li, div, dl {
+	margin:0;
+	padding:0
+}
+li {
+	padding:0;
+	margin:0;
+	list-style:none
+}
+a {
+	text-decoration:none;
+	outline:0;
+	color:#1d95cb
+}
+a:hover {
+	text-decoration:underline
+}
+img {
+	vertical-align:middle;
+	border:0
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix {
+	display:inline-table
+}/*\*/
+* html .clearfix {
+	height:1%
+}
+.clearfix {
+	display:block
+}/**/
+.clsFloatLeft {
+	float:left
+}
+.clsFloatRight {
+	float:right
+}
+.clear {
+	clear:both
+}
+.clsBg_None {
+	background:none!important
+}
+.clsBorder_No {
+	border:none!important
+}
+.clsBold {
+	font-weight:bold
+}
+.Txt_Right_Align {
+	text-align:right
+}
+button {
+	vertical-align:middle;
+	outline:0
+}
+input, select, textarea, button {
+	border:1px solid #c3c3c3;
+	border-radius:5px 5px 5px 5px;
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 0 #000;
+	padding:5px
+}
+.round_bottom {
+	-moz-border-radius:0 0 5px 5px;
+	-webkit-border-radius:0 0 5px 5px;
+	-khtml-border-radius:0 0 5px 5px;
+	border-radius:0 0 5px 5px;
+}
+#Header_Top {
+	background:url(images/header_bg.png) repeat-x center top;
+	left:0;
+	top:0;
+	right:0;
+	z-index:2000;
+	position:fixed
+}
+#Header_Top_Inner li {
+	float:left
+}
+#Header_Top_Inner li.HLog_User_Name span {
+	color:#fff;
+	padding:0 10px;
+	border-right:1px solid #fff;
+	line-height:34px
+}
+#Header_Top_Inner {
+	height:34px;
+	width:980px;
+	margin:0 auto
+}
+#Header_Top_Inner li a {
+	color:#fff;
+	padding:0 10px;
+	border-right:1px solid #fff;
+	line-height:34px
+}
+#Header_Inner {
+	margin:0 auto;
+	text-align:left;
+	width:980px
+}
+#Logo {
+	height:125px;
+	width:290px;
+	overflow:hidden
+}
+#Logo h1 a {
+	display:block
+}
+#Logo h1 a:hover {
+	display:block;
+	opacity:.8;
+	-ms-filter:"alpha(opacity=80)";
+	filter:alpha(opacity=80)
+}
+#selCust_Ser {
+	font-size:15px;
+	text-align:center;
+	margin-top:38px
+}
+#selCust_Ser p {
+	padding:0 0 10px 0
+}
+#selList_Space {
+	margin-top:40px
+}
+#Header_Bttm {
+	margin:37px auto 0;
+	width:980px
+}
+.clsLink1_Bg {
+	background:url(images/button.png) no-repeat scroll 0 0 transparent;
+	color:#fff;
+	display:inline-block;
+	font:bold 12px Helvetica Neue, sans-serif;
+	text-align:center;
+	text-transform:uppercase;
+	white-space:nowrap;
+	height:38px;
+	line-height:38px;
+	padding:0 0 0 10px;
+	cursor:pointer
+}
+.clsLink1_Bg span {
+	background:url(images/button.png) no-repeat scroll 100% 0 transparent;
+	padding:0 10px 0 0;
+	display:inline-block;
+	cursor:pointer
+}
+.clsLink1_Bg:hover {
+	text-decoration:none;
+	background:url(images/button.png) no-repeat scroll 0 -38px transparent
+}
+.clsLink1_Bg:hover span {
+	background:url(images/button.png) no-repeat scroll 100% -38px transparent
+}
+.clsLink1_Bg:active {
+	background:url(images/button.png) no-repeat scroll 0 -76px transparent
+}
+.clsLink1_Bg:active span {
+	background:url(images/button.png) no-repeat scroll 100% -76px transparent
+}
+.Butt_Normal:active {
+	background:#2fa9e8
+}
+.Butt_Normal:hover {
+	background:url(images/link2_bg.png) repeat-x 0 0
+}
+.Butt_Normal {
+	background:url(images/link2_bg.png) repeat-x 0 100%;
+	padding:0 10px;
+	line-height:28px;
+	height:28px;
+	color:#393c3d;
+	font-weight:bold;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #c3c3c3;
+	cursor:pointer
+}
+.clsLink2_Bg {
+	background:url(images/link2_bg.png) repeat-x center top;
+	padding:0 10px;
+	line-height:28px;
+	height:28px;
+	display:inline-block;
+	border:1px solid #c3c3c3;
+	font-size:12px;
+	color:#848484;
+	font-weight:bold;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	text-decoration:none
+}
+.clsLink2_Bg:hover {
+	background:url(images/link2_bg.png) repeat-x center bottom;
+	text-decoration:none;
+	color:#848484
+}
+.clsLink2_Bg:active {
+	background:#f5f6f6
+}
+button.button1 {
+	background:0;
+	border:0 none;
+	cursor:pointer;
+	margin:0;
+	overflow:visible;
+	padding:0;
+	width:auto;
+	border-radius:0;
+	box-shadow:none
+}
+button.button1 span {
+	background:url(images/button1.png) no-repeat scroll 0 0 transparent;
+	color:#fff;
+	display:block;
+	font:bold 12px Helvetica Neue, sans-serif;
+	text-align:center;
+	text-transform:uppercase;
+	white-space:nowrap;
+	height:30px;
+	line-height:30px;
+	padding:0 0 0 10px
+}
+button.button1 span span {
+	background-position:100% 0;
+	padding:0 10px 0 0
+}
+button.button1:hover span {
+	background:url(images/button1.png) no-repeat scroll 0 -30px transparent
+}
+button.button1:hover span span {
+	background:url(images/button1.png) no-repeat scroll 100% -30px transparent
+}
+button.button1:active span {
+	background:url(images/button1.png) no-repeat scroll 0 -60px transparent
+}
+button.button1:active span span {
+	background:url(images/button1.png) no-repeat scroll 100% -60px transparent
+}
+button.button {
+	background:0;
+	border:0 none;
+	cursor:pointer;
+	margin:0;
+	overflow:visible;
+	padding:0;
+	width:auto;
+	border-radius:0
+}
+button.button span {
+	background:url(images/button.png) no-repeat scroll 0 0 transparent;
+	color:#fff;
+	display:block;
+	font:bold 12px Helvetica Neue, sans-serif;
+	text-align:center;
+	text-transform:uppercase;
+	white-space:nowrap;
+	height:38px;
+	line-height:38px;
+	padding:0 0 0 10px
+}
+button.button span span {
+	background-position:100% 0;
+	padding:0 10px 0 0
+}
+button.button:hover span {
+	background:url(images/button.png) no-repeat scroll 0 -38px transparent
+}
+button.button:hover span span {
+	background:url(images/button.png) no-repeat scroll 100% -38px transparent
+}
+button.button:active span {
+	background:url(images/button.png) no-repeat scroll 0 -76px transparent
+}
+button.button:active span span {
+	background:url(images/button.png) no-repeat scroll 100% -76px transparent
+}
+.container_bg {
+	background:#f0f0f0;
+	width:960px;
+	min-height:375px;
+	margin:0 auto 0;
+	text-align:left;
+	padding:10px 10px 5px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-khtml-border-radius:10px;
+	border-radius:10px
+}
+.container_bg1 {
+	border:1px solid #e1e1e1;
+	background:#fff url(images/sign_bg.png) repeat center top;
+	width:960px;
+	min-height:500px;
+	padding:10px 10px 0;
+	margin:15px auto 0;
+	text-align:left;
+	box-shadow:inset 0 0 .2em rgba(255, 255, 255, 0.3), inset 0 0 .2em rgba(255, 255, 255, 0.3), 0 1px 10px rgba(0, 0, 0, 0.2);
+	-o-box-shadow:inset 0 0 .2em rgba(255, 255, 255, 0.3), inset 0 0 .2em rgba(255, 255, 255, 0.3), 0 1px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:inset 0 0 .2em rgba(255, 255, 255, 0.3), inset 0 0 .2em rgba(255, 255, 255, 0.3), 0 1px 10px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow:inset 0 0 .2em rgba(255, 255, 255, 0.3), inset 0 0 .2em rgba(255, 255, 255, 0.3), 0 1px 10px rgba(0, 0, 0, 0.2);
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-khtml-border-radius:10px;
+	border-radius:10px
+}
+.container_bg_listpage {
+	width:960px;
+	min-height:375px;
+	margin:0 auto 0;
+	text-align:left;
+	padding:10px 10px 5px
+}
+#HMain_Left {
+	width:667px
+}
+#HSearch_Blk {
+	background:#1b9ddb url(images/hsearcch_blk_bg.png) repeat-x center top;
+	min-height:222px;
+	padding:0 80px;
+	width:505px;
+	color:#fff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #2b92d4
+}
+.clsHsearch_Inp {
+	background:url(images/hsearch_inp.png) no-repeat center top;
+	width:502px;
+	margin:0 0 10px 0;
+	height:48px
+}
+.clsHsearch_Inp input {
+	height:39px;
+	line-height:39px;
+	margin:4px 0 2px 10px;
+	vertical-align:bottom;
+	width:433px;
+	border:0;
+	background:transparent;
+	color:#9a9999;
+	font-size:15px
+}
+.HSer_Inp_bg {
+	-webkit-box-shadow:inset #d9d9d9 3px 4px 4px;
+	-moz-box-shadow:inset #d9d9d9 3px 4px 4px;
+	box-shadow:inset #d9d9d9 3px 4px 4px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	border:0;
+	color:#9a9999;
+	font-size:15px;
+	height:42px;
+	line-height:42px;
+	background:#fff;
+	padding:0 10px;
+	width:122px
+}
+.Ser_Selec_bg {
+	-webkit-box-shadow:inset #d9d9d9 3px 4px 4px;
+	-moz-box-shadow:inset #d9d9d9 3px 4px 4px;
+	box-shadow:inset #d9d9d9 3px 4px 4px;
+	-moz-border-radius:3px;
+	-khtml-border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	border:0;
+	color:#9a9999;
+	font-size:15px;
+	height:22px;
+	line-height:22px;
+	background:#fff;
+	padding:10px;
+	width:75px
+}
+.Ser_Selec_bg select {
+	border:0;
+	width:72px;
+	margin:2px 0 0 0
+}
+.HSer_CheckIn, .HSer_CheckOut {
+	width:142px;
+	margin:0 5px 0 0
+}
+.HSer_Guest {
+	width:102px;
+	margin:0 5px 0 0
+}
+.HSer_Guest .HSer_Inp_bg {
+	width:82px
+}
+#HSear_Options .Serch_Button {
+	margin:21px 0 0 0
+}
+.Serch_Button {
+	background:url(images/search_button.png) no-repeat 0 0;
+	width:96px;
+	cursor:pointer;
+	font-weight:bold;
+	height:42px;
+	text-shadow:0 1px 0 #f1f8fa;
+	color:#004b70;
+	border:0
+}
+.Serch_Button:hover {
+	background:url(images/search_button.png) no-repeat 0 -42px
+}
+.Serch_Button:active {
+	background:url(images/search_button.png) no-repeat 0 -84px
+}
+#HSearch_Blk h1 {
+	text-align:center;
+	font-family:Helvetica Neue, sans-serif;
+	font-size:24px;
+	font-weight:normal;
+	margin:18px 0 18px 0
+}
+#HSear_Options p:fir</style>-->
+				<link rel="stylesheet" href="http://demo2server.in/sites/ci/airbnbclone/css/templates/blue/responsiveslides.css">
+				<link rel="stylesheet" href="http://demo2server.in/sites/ci/airbnbclone/css/templates/blue/demo.css">
+				<!-- Change the string after key= in the script below to the key that you have obtained in the google maps -->
+
+				<script>var NREUMQ=[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);(function(){var d=document;var e=d.createElement("script");e.type="text/javascript";e.async=true;e.src="http://demo2server.in/sites/ci/airbnbclone/js/rum.js";var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(e,s);})()</script>
+				<script type="text/javascript">
+				var base_url = 'http://demo2server.in/sites/ci/airbnbclone/';
+				var default_value = 'Where are you going?';
+				</script>
+				<script src="http://demo2server.in/sites/ci/airbnbclone/js/common.js" type="text/javascript"></script>
+				<script type="text/javascript" src="http://demo2server.in/sites/ci/airbnbclone/js/jquery.validate.js"></script>
+				<script src="http://demo2server.in/sites/ci/airbnbclone/js/jquery-ui-1.8.14.custom.min.js" type="text/javascript"></script>
+								<script src="http://demo2server.in/sites/ci/airbnbclone/js/home.js" type="text/javascript"></script>
+				<script src="http://demo2server.in/sites/ci/airbnbclone/js/home_new.js" type="text/javascript"></script>
+				<script src="http://demo2server.in/sites/ci/airbnbclone/js/page1.js" type="text/javascript"></script>
+				<script src="http://demo2server.in/sites/ci/airbnbclone/js/page1_new.js" type="text/javascript"></script>
+								<!-- Slider Kit scripts -->
+				<script type="text/javascript" src="http://demo2server.in/sites/ci/airbnbclone/js/jquery.easing.1.3.min.js"></script>
+				<script type="text/javascript" src="http://demo2server.in/sites/ci/airbnbclone/js/jquery.sliderkit.1.8.min.js"></script>
+				<script type="text/javascript" src="http://demo2server.in/sites/ci/airbnbclone/js/sliderkit.delaycaptions.min.js"></script>
+				<script type="text/javascript" src="http://demo2server.in/sites/ci/airbnbclone/js/jquery.leanModal.min.js"></script>
+				<script type="text/javascript" src="http://demo2server.in/sites/ci/airbnbclone//js/responsiveslides.min.js"> </script>
+				<!--<script type="text/javascript" src="jquery.js"></script>-->
+								</head>
+				<body>
+<div id="fb-root"></div>
+<script type="text/javascript">
+
+//create a function that accepts an input variable (which key was key pressed)
+function disableEnterKey(e){
+
+//create a variable to hold the number of the key that was pressed
+var key;
+
+    //if the users browser is internet explorer
+    if(window.event){
+
+    //store the key code (Key number) of the pressed key
+    key = window.event.keyCode;
+
+    //otherwise, it is firefox
+    } else {
+
+    //store the key code (Key number) of the pressed key
+    key = e.which;
+    }
+
+    //if key 13 is pressed (the enter key)
+    if(key == 13){
+
+    //do nothing
+
+    return false;
+
+    //otherwise
+    } else {
+
+    //continue as normal (allow the key press for keys other than "enter")
+    return true;
+    }
+
+//and don't forget to close the function
+}
+</script>
+<script type="text/javascript">
+function getSelectedText() {
+        if (window.getSelection) {
+            return window.getSelection().toString();
+        } else if (document.selection) {
+            return document.selection.createRange().text;
+        }
+        return '';
+    }
+	$(function() {
+				var Translations = {
+    translate_button: {
+
+      show_original_description : 'Show original description',
+      translate_this_description : 'Translate this description to English'
+    },
+    per_month: "per month",
+    long_term: "Long Term Policy",
+    clear_dates: "Clear Dates"
+  }
+       var date = new Date();
+var currentMonth = date.getMonth();
+var currentDate = date.getDate();
+var currentYear = date.getFullYear();
+
+	   $( "#checkoutdate2" ).datepicker({
+                minDate: 0,
+                maxDate: "+2Y",
+                nextText: "",
+                prevText: "",
+                numberOfMonths: 1,
+                // closeText: "Clear Dates",
+                currentText: Translations.today,
+                showButtonPanel: true,
+                onClose: function(dateText, inst) {
+
+	 		 	$('.advanced_search').show();
+          
+     }
+	    });
+
+	    $( "#checkindate2" ).datepicker({
+			    minDate: date,
+                maxDate: "+2Y",
+                nextText: "",
+                prevText: "",
+                numberOfMonths: 1,
+                currentText: Translations.today,
+                showButtonPanel: true,
+	 onClose: function(dateText, inst) {
+
+	 	
+	 	$('.advanced_search').show();
+          
+          d = $('#checkindate2').datepicker('getDate');
+         if(!d)
+         {
+         	var d = new Date();
+         	 d.setDate(d.getDate()+1); // add int nights to int date
+		$("#checkoutdate2").datepicker("option", "minDate", d);
+         }
+         else
+         {
+         	d.setDate(d.getDate()+1); // add int nights to int date
+		$("#checkoutdate2").datepicker("option", "minDate", d);
+         }
+
+		setTimeout(function ()
+		{
+
+                                }, 0)
+     }
+	   });
+    });
+
+$(document).ready(function(){
+	$("#close_search1").click(function(){
+			 $("#advanced_search").fadeOut();
+          
+});
+$("#close_search").click(function(){
+			 $("#advanced_search").fadeOut();
+          
+});
+});
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
+<script type="text/javascript">
+
+$(document).ready(function () {
+
+      var input = document.getElementById('searchTextField');
+    autocomplete = new google.maps.places.Autocomplete(input);
+    google.maps.event.addListener(autocomplete, 'place_changed', function() {
+        	 	$('.advanced_search').show();
+          
+// now call it automaitically on page load
+$('#checkindate2').trigger('click');
+    });
+
+});
+
+
+</script>
+<style>
+ @media screen and (-webkit-min-device-pixel-ratio:0) {
+.main_entire_inner
+	{
+	overflow-y:scroll;
+	padding-bottom:80px !important;
+	height:450px!important;
+    }
+#cal_container.center_entire{
+height:500px!important;
+}
+#price_container.center_entire{
+height:500px!important;
+width:590px!important;
+}
+#overview_entire.center_entire{
+height:500px!important;
+}
+#amenities_entire.center_entire{
+height:500px!important;
+padding-bottom:104px!important;
+}
+#listing_entire.center_entire{
+height:500px!important;
+padding:40px 40px 100px!important;
+}
+.myentire{
+padding-bottom:120px !important;
+}
+#photos_container.center_entire{
+height:500px!important;
+}
+}
+
+
+#listing_entire.center_entire{
+height:468px;
+}
+/*.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus{
+    background: rgb(0, 176, 255)!important;
+	color: #FFFFFF!important;
+    text-decoration: none!important;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2)!important;
+	border:none !important;
+	border-radius:0px!important;
+}
+.ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active  {
+    background-color: rgb(0, 176, 255)!important;
+	outline:0px none;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2)!important;
+    color: rgb(255, 255, 255)!important;
+    text-decoration: none!important;
+
+}*/
+.ui-menu .ui-menu-item a {
+    font-weight: normal!important;
+	margin:-1.2px -1.8px 0px -1.8px !important;
+    padding: 12px!important;
+    font-size: 1.2em!important;
+    display: block!important;
+    clear: both!important;
+    line-height: 18px!important;
+    color: rgb(57, 60, 61)!important;
+    white-space: nowrap!important;
+	border-bottom: 1px solid rgb(238, 238, 238)!important;
+	border-radius:0px!important;
+}
+.ui-menu li:first-child a{
+border-top-width:0px!important;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 4px!important;
+    border-bottom-left-radius: 4px!important;
+    border-top-right-radius: 0px!important;
+    border-top-left-radius: 0px!important;
+}
+.pac-item-query
+{
+	color:#0F92CD;
+	cursor: pointer;
+	font-size: 16px;
+}
+.pac-item
+{
+	color:#0F92CD;
+	cursor: pointer;
+	font-size: 16px;
+	padding-left: 10px;
+}
+/*.pac-container .pac-item:hover, .pac-container .pac-item.pac-selected{
+background: url("https://a0.muscache.com/airbnb/static/landing_pages/home_v2/search-option-highlight-bg-fdcbf17186af2f120363d76c8b768954.jpg") repeat-x scroll 0px 0px rgb(19, 132, 179) !important;
+color: white;
+}*/
+.pac-icon
+{
+	width:0px;
+}
+.pac-container
+{
+	border: black;
+}/*
+.pac-item-query:hover {
+	background: url(../../../../../images/advanced_search_bg.png) repeat scroll 0 0 rgb(19, 132, 179) !important;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.pac-item:hover {
+	background: url(../../../../../images/advanced_search_bg.png) repeat scroll 0 0 rgb(19, 132, 179) !important;
+	color: #FFFFFF;
+	font-weight: bold;
+}*/
+</style>
+<!-- End of meta content -->
+<title>Airbnbclone</title>
+
+<!--<style>
+@font-face {
+font-family:'SignPainter-HouseScript';
+src:url('signpainterhousescript.eot');
+src:url('signpainterhousescript.eot?#iefix') format('embedded-opentype'), url('signpainterhousescript.woff') format('woff'), url('signpainterhousescript.ttf') format('truetype'), url('signpainterhousescript.svg#signpainterhousescript') format('svg');
+font-weight:normal;
+font-style:normal
+}
+@font-face {
+font-family:'HelveticaNeue';
+src:url('helvetica.eot');
+src:url('helvetica.eot?#iefix') format('embedded-opentype'), url('helvetica.woff') format('woff'), url('helvetica.ttf') format('truetype'), url('helvetica.svg#helvetica') format('svg');
+font-weight:normal;
+font-style:normal
+}
+body {
+	font-size:80%;
+	background:#fff;
+	margin:0!important;
+	padding:0;
+	font:normal 11px Helvetica Neue, sans-serif;
+	text-align:center;
+	color:#393c3d;
+}
+html>body {
+	font-size:9.5pt
+}
+html {
+	min-height:100%;
+	height:auto
+}
+form, table, p, h1, h2, h3, h4, h5, h6, ul, li, div, dl {
+	margin:0;
+	padding:0
+}
+li {
+	padding:0;
+	margin:0;
+	list-style:none
+}
+a {
+	text-decoration:none;
+	outline:0;
+	color:#1d95cb
+}
+a:hover {
+	text-decoration:underline
+}
+img {
+	vertical-align:middle;
+	border:0
+}
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix {
+	display:inline-table
+}/*\*/
+* html .clearfix {
+	height:1%
+}
+.clearfix {
+	display:block
+}/**/
+.clsFloatLeft {
+	float:left
+}
+.clsFloatRight {
+	float:right
+}
+.clear {
+	clear:both
+}
+.clsBg_None {
+	background:none!important
+}
+.clsBorder_No {
+	border:none!important
+}
+.clsBold {
+	font-weight:bold
+}
+.Txt_Right_Align {
+	text-align:right
+}
+button {
+	vertical-align:middle;
+	outline:0
+}
+input, select, textarea, button {
+	border:1px solid #c3c3c3;
+	border-radius:5px 5px 5px 5px;
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 0 #000;
+	padding:5px
+}
+.round_bottom {
+	-moz-border-radius:0 0 5px 5px;
+	-webkit-border-radius:0 0 5px 5px;
+	-khtml-border-radius:0 0 5px 5px;
+	border-radius:0 0 5px 5px;
+}
+#Header_Top {
+	background:url(images/header_bg.png) repeat-x center top;
+	left:0;
+	top:0;
+	right:0;
+	z-index:2000;
+	position:fixed
+}
+#Header_Top_Inner li {
+	float:left
+}
+#Header_Top_Inner li.HLog_User_Name span {
+	color:#fff;
+	padding:0 10px;
+	border-right:1px solid #fff;
+	line-height:34px
+}
+#Header_Top_Inner {
+	height:34px;
+	width:980px;
+	margin:0 auto
+}
+#Header_Top_Inner li a {
+	color:#fff;
+	padding:0 10px;
+	border-right:1px solid #fff;
+	line-height:34px
+}
+#Header_Inner {
+	margin:0 auto;
+	text-align:left;
+	width:980px
+}
+#Logo {
+	height:125px;
+	width:290px;
+	overflow:hidden
+}
+#Logo h1 a {
+	display:block
+}
+#Logo h1 a:hover {
+	display:block;
+	opacity:.8;
+	-ms-filter:"alpha(opacity=80)";
+	filter:alpha(opacity=80)
+}
+#selCust_Ser {
+	font-size:15px;
+	text-align:center;
+	margin-top:38px
+}
+#selCust_Ser p {
+	padding:0 0 10px 0
+}
+#selList_Space {
+	margin-top:40px
+}
+#Header_Bttm {
+	margin:37px auto 0;
+	width:980px
+}
+.clsLink1_Bg {
+	background:url(images/button.png) no-repeat scroll 0 0 transparent;
+	color:#fff;
+	display:inline-block;
+	font:bold 12px Helvetica Neue, sans-serif;
+	text-align:center;
+	text-transform:uppercase;
+	white-space:nowrap;
+	height:38px;
+	line-height:38px;
+	padding:0 0 0 10px;
+	cursor:pointer
+}
+.clsLink1_Bg span {
+	background:url(images/button.png) no-repeat scroll 100% 0 transparent;
+	padding:0 10px 0 0;
+	display:inline-block;
+	cursor:pointer
+}
+.clsLink1_Bg:hover {
+	text-decoration:none;
+	background:url(images/button.png) no-repeat scroll 0 -38px transparent
+}
+.clsLink1_Bg:hover span {
+	background:url(images/button.png) no-repeat scroll 100% -38px transparent
+}
+.clsLink1_Bg:active {
+	background:url(images/button.png) no-repeat scroll 0 -76px transparent
+}
+.clsLink1_Bg:active span {
+	background:url(images/button.png) no-repeat scroll 100% -76px transparent
+}
+.Butt_Normal:active {
+	background:#2fa9e8
+}
+.Butt_Normal:hover {
+	background:url(images/link2_bg.png) repeat-x 0 0
+}
+.Butt_Normal {
+	background:url(images/link2_bg.png) repeat-x 0 100%;
+	padding:0 10px;
+	line-height:28px;
+	height:28px;
+	color:#393c3d;
+	font-weight:bold;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #c3c3c3;
+	cursor:pointer
+}
+.clsLink2_Bg {
+	background:url(images/link2_bg.png) repeat-x center top;
+	padding:0 10px;
+	line-height:28px;
+	height:28px;
+	display:inline-block;
+	border:1px solid #c3c3c3;
+	font-size:12px;
+	color:#848484;
+	font-weight:bold;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	text-decoration:none
+}
+.clsLink2_Bg:hover {
+	background:url(images/link2_bg.png) repeat-x center bottom;
+	text-decoration:none;
+	color:#848484
+}
+.clsLink2_Bg:active {
+	background:#f5f6f6
+}
+button.button1 {
+	background:0;
+	border:0 none;
+	cursor:pointer;
+	margin:0;
+	overflow:visible;
+	padding:0;
+	width:auto;
+	border-radius:0;
+	box-shadow:none
+}
+button.button1 span {
+	background:url(images/button1.png) no-repeat scroll 0 0 transparent;
+	color:#fff;
+	display:block;
+	font:bold 12px Helvetica Neue, sans-serif;
+	text-align:center;
+	text-transform:uppercase;
+	white-space:nowrap;
+	height:30px;
+	line-height:30px;
+	padding:0 0 0 10px
+}
+button.button1 span span {
+	background-position:100% 0;
+	padding:0 10px 0 0
+}
+button.button1:hover span {
+	background:url(images/button1.png) no-repeat scroll 0 -30px transparent
+}
+button.button1:hover span span {
+	background:url(images/button1.png) no-repeat scroll 100% -30px transparent
+}
+button.button1:active span {
+	background:url(images/button1.png) no-repeat scroll 0 -60px transparent
+}
+button.button1:active span span {
+	background:url(images/button1.png) no-repeat scroll 100% -60px transparent
+}
+button.button {
+	background:0;
+	border:0 none;
+	cursor:pointer;
+	margin:0;
+	overflow:visible;
+	padding:0;
+	width:auto;
+	border-radius:0
+}
+button.button span {
+	background:url(images/button.png) no-repeat scroll 0 0 transparent;
+	color:#fff;
+	display:block;
+	font:bold 12px Helvetica Neue, sans-serif;
+	text-align:center;
+	text-transform:uppercase;
+	white-space:nowrap;
+	height:38px;
+	line-height:38px;
+	padding:0 0 0 10px
+}
+button.button span span {
+	background-position:100% 0;
+	padding:0 10px 0 0
+}
+button.button:hover span {
+	background:url(images/button.png) no-repeat scroll 0 -38px transparent
+}
+button.button:hover span span {
+	background:url(images/button.png) no-repeat scroll 100% -38px transparent
+}
+button.button:active span {
+	background:url(images/button.png) no-repeat scroll 0 -76px transparent
+}
+button.button:active span span {
+	background:url(images/button.png) no-repeat scroll 100% -76px transparent
+}
+.container_bg {
+	background:#f0f0f0;
+	width:960px;
+	min-height:375px;
+	margin:0 auto 0;
+	text-align:left;
+	padding:10px 10px 5px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-khtml-border-radius:10px;
+	border-radius:10px
+}
+.container_bg1 {
+	border:1px solid #e1e1e1;
+	background:#fff url(images/sign_bg.png) repeat center top;
+	width:960px;
+	min-height:500px;
+	padding:10px 10px 0;
+	margin:15px auto 0;
+	text-align:left;
+	box-shadow:inset 0 0 .2em rgba(255, 255, 255, 0.3), inset 0 0 .2em rgba(255, 255, 255, 0.3), 0 1px 10px rgba(0, 0, 0, 0.2);
+	-o-box-shadow:inset 0 0 .2em rgba(255, 255, 255, 0.3), inset 0 0 .2em rgba(255, 255, 255, 0.3), 0 1px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:inset 0 0 .2em rgba(255, 255, 255, 0.3), inset 0 0 .2em rgba(255, 255, 255, 0.3), 0 1px 10px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow:inset 0 0 .2em rgba(255, 255, 255, 0.3), inset 0 0 .2em rgba(255, 255, 255, 0.3), 0 1px 10px rgba(0, 0, 0, 0.2);
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-khtml-border-radius:10px;
+	border-radius:10px
+}
+.container_bg_listpage {
+	width:960px;
+	min-height:375px;
+	margin:0 auto 0;
+	text-align:left;
+	padding:10px 10px 5px
+}
+#HMain_Left {
+	width:667px
+}
+#HSearch_Blk {
+	background:#1b9ddb url(images/hsearcch_blk_bg.png) repeat-x center top;
+	min-height:222px;
+	padding:0 80px;
+	width:505px;
+	color:#fff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #2b92d4
+}
+.clsHsearch_Inp {
+	background:url(images/hsearch_inp.png) no-repeat center top;
+	width:502px;
+	margin:0 0 10px 0;
+	height:48px
+}
+.clsHsearch_Inp input {
+	height:39px;
+	line-height:39px;
+	margin:4px 0 2px 10px;
+	vertical-align:bottom;
+	width:433px;
+	border:0;
+	background:transparent;
+	color:#9a9999;
+	font-size:15px
+}
+.HSer_Inp_bg {
+	-webkit-box-shadow:inset #d9d9d9 3px 4px 4px;
+	-moz-box-shadow:inset #d9d9d9 3px 4px 4px;
+	box-shadow:inset #d9d9d9 3px 4px 4px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	border:0;
+	color:#9a9999;
+	font-size:15px;
+	height:42px;
+	line-height:42px;
+	background:#fff;
+	padding:0 10px;
+	width:122px
+}
+.Ser_Selec_bg {
+	-webkit-box-shadow:inset #d9d9d9 3px 4px 4px;
+	-moz-box-shadow:inset #d9d9d9 3px 4px 4px;
+	box-shadow:inset #d9d9d9 3px 4px 4px;
+	-moz-border-radius:3px;
+	-khtml-border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	border:0;
+	color:#9a9999;
+	font-size:15px;
+	height:22px;
+	line-height:22px;
+	background:#fff;
+	padding:10px;
+	width:75px
+}
+.Ser_Selec_bg select {
+	border:0;
+	width:72px;
+	margin:2px 0 0 0
+}
+.HSer_CheckIn, .HSer_CheckOut {
+	width:142px;
+	margin:0 5px 0 0
+}
+.HSer_Guest {
+	width:102px;
+	margin:0 5px 0 0
+}
+.HSer_Guest .HSer_Inp_bg {
+	width:82px
+}
+#HSear_Options .Serch_Button {
+	margin:21px 0 0 0
+}
+.Serch_Button {
+	background:url(images/search_button.png) no-repeat 0 0;
+	width:96px;
+	cursor:pointer;
+	font-weight:bold;
+	height:42px;
+	text-shadow:0 1px 0 #f1f8fa;
+	color:#004b70;
+	border:0
+}
+.Serch_Button:hover {
+	background:url(images/search_button.png) no-repeat 0 -42px
+}
+.Serch_Button:active {
+	background:url(images/search_button.png) no-repeat 0 -84px
+}
+#HSearch_Blk h1 {
+	text-align:center;
+	font-family:Helvetica Neue, sans-serif;
+	font-size:24px;
+	font-weight:normal;
+	margin:18px 0 18px 0
+}
+#HSear_Options p:fir</style>-->
+
+<!--Header-->
+<div id="header" class="clearfix ">
+		<div class="headerleft">
+    <div class="logo"> <a href="http://demo2server.in/sites/ci/airbnbclone/"> <!--<img title="Airbnb-clone" src="">--> </a> </div>
+    <div style="float:left;margin-left:20px;margin-top:-2px;">
+                      <ul id="navigation">
+        <li id="subnavigation">
+                          <ul class="menu">
+            <li><a class="menu-browse" href="#">Browse <span> <img class="browse_downarrow" src="http://demo2server.in/sites/ci/airbnbclone//images/down_arrow.png" /> </span> </a>
+                              <ul>
+                <li class="bya"><a href="http://demo2server.in/sites/ci/airbnbclone/home/popular/"><i class="icon-popular"> </i> Popular</a></li>
+                <li><a href="http://demo2server.in/sites/ci/airbnbclone/home/friends/"><i class="icon-friends"> </i> Friends</a></li>
+                <li><a href="http://demo2server.in/sites/ci/airbnbclone/home/neighborhoods/"><i class="icon-neighborhoods"> </i> Neighborhoods</a></li>
+              </ul>
+                            </li>
+          </ul>
+                        </li>
+      </ul>
+                    </div>
+                          <div class="search">
+                <form id="search_form1" action="http://demo2server.in/sites/ci/airbnbclone/search" method ="post" class="searchform_head">
+                          <input type="text" id="searchTextField" name="searchbox" class="searchbox" value="Where are you going?" onblur="if (this.value == ''){this.value = 'Where are you going?'; }"
+   onfocus="if (this.value == 'Where are you going?') {this.value = ''; }" onKeyPress="return disableEnterKey(event)" placeholder="Where are you going?"/>
+                          <div id="map-canvas"></div>
+                                                    <div class='advanced_search' id="advanced_search" style='display: none; position: absolute;
+        z-index: 2147483647; background:#FCFCFC; border: 1px solid #CCCCCC; padding: 10px; opacity: 1;width: 260px;top:39px;'>
+            <label class="checkin_search">
+            Check in            <div id="checkinWrapper" class="input-wrapper">
+                              <input id="checkindate2" class="check_wrap checkin search-option ui-datepicker-target" type="text" placeholder="Check in" name="checkin" autocomplete="off" readonly>
+                            </div>
+            </label>
+            <label class="checkout-detail_search">
+            Check out            <div id="checkoutWrapper" class="input-wrapper">
+                              <input id="checkoutdate2" class="check_wrap checkout search-option ui-datepicker-target" type="text" placeholder="Check out" name="checkout" autocomplete="off" readonly>
+                            </div>
+            </label>
+            <label class="guest-detail_search">
+            <div class="guests_section">
+                              <div class="heading"> Guests </div>
+                              <select id="number_of_guests" name="number_of_guests" placeholder="Guests" class="guest-detail-section" style="margin-top: 5px;padding: 4px;">
+                <option placeholder="1">1</option>
+                <option placeholder="2">2</option>
+                <option placeholder="3">3</option>
+                <option placeholder="4">4</option>
+                <option placeholder="5">5</option>
+                <option placeholder="6">6</option>
+                <option placeholder="7">7</option>
+                <option placeholder="8">8</option>
+                <option placeholder="9">9</option>
+                <option placeholder="10">10</option>
+                <option placeholder="11">11</option>
+                <option placeholder="12">12</option>
+                <option placeholder="13">13</option>
+                <option placeholder="14">14</option>
+                <option placeholder="15">15</option>
+                <option placeholder="16">16+</option>
+              </select>
+                            </div>
+            </label>
+            <div style="clear:both"></div>
+            <p class="filter_header">Room type</p>
+            <!-- Search filter content is below this -->
+            <div style="clear:both"></div>
+            <ul class="search_filter_content">
+                              <li class="clearfix checkbox">
+                <input class="checkbox_filter" type="checkbox" value="Entire home/apt" name="room_types1" id="room_type_0">
+                <label class="checkbox_list" for="room_type_0"> Entire home/apt</label>
+              </li>
+                              <li class="clearfix checkbox">
+                <input class="checkbox_filter" type="checkbox" value="Private room" name="room_types2" id="room_type_1">
+                <label class="checkbox_list" for="room_type_1"> Private room</label>
+              </li>
+                              <li class="clearfix checkbox">
+                <input class="checkbox_filter" type="checkbox" value="Shared room" name="room_types3" id="room_type_2">
+                <label class="checkbox_list" for="room_type_2">Shared room</label>
+              </li>
+                            </ul>
+            <div style="clear:both"></div>
+            <button id="submit_location" class="find-btn" type="submit" value="Search" name="Submit" > <i class="icon icon-search"></i> <img src="http://demo2server.in/sites/ci/airbnbclone//css/templates/blue/images/search_icon1.png" /> Find A Place </button>
+            <label class='find-btn-close' id="close_search"> Close </label>
+          </div>
+                                                  </form>
+      </div>
+                    </div>
+    <div class="headerright">
+        <ul class="clearfix clsFloatRight header_content lf">
+            <li><a href="http://demo2server.in/sites/ci/airbnbclone/users/signup">Sign Up</a></li>
+    <li><a href="http://demo2server.in/sites/ci/airbnbclone/users/signin">Sign In</a></li>
+            <div id='view_help' style='float:left;'>    <ul id="navigation">
+                      <li id="subnavigation">
+                      <ul class="menu_help">
+                <li class="hel_in">
+        <a href="#"><i class="fa fa-question"></i>Help <span> <!--<img class="hel_downarrow" src="http://demo2server.in/sites/ci/airbnbclone//images/down_arrow.png" />--> </span> </a>
+                <ul>
+                                                    <li class="guide"><a href="http://demo2server.in/sites/ci/airbnbclone/home/help/16">How do i sign up?</a></li>
+                                                                              <li class="pop_help"><a href="http://demo2server.in/sites/ci/airbnbclone/home/help/1"> Need help on this page?                    </a> </li>                          </li>
+                        </ul>
+        </li>
+      </ul>
+                      </div>		<li style="margin-top: 8px; float:left; margin-right: 20px;padding:0;line-height:normal;" class="list_btn"> <a class="yellow btn" href="http://demo2server.in/sites/ci/airbnbclone/rooms/new"><span>List Your Space</span></a> </li>
+	                    </ul>
+    </li>
+    </ul>
+  </div>
+                </div><div id ="main_content"><style>
+body {
+background:#f7f7f7 ;
+}
+</style>
+<!--aircont-->
+<div class="app_view">
+<div id="hero" class="search_intro" data-native-currency="USD" style="display: block;">
+<div class="callbacks_container">
+<video loop preload="auto" class="background_video" autoplay muted>
+	<source src="video.mp4"></source>
+</video>
+
+<ul class="rslides" id="slider4">
+<li>
+<img src="http://demo2server.in/sites/ci/airbnbclone/images/1/ef3e4692d7704ec4a205976290f7ceaf" alt="">
+<div class="caption">
+<div class="heart_but">
+
+<img width="40" height="40" src="images/heart_but.png" alt="no heart image">
+
+</div>
+<div class="room_head">
+<strong>
+<span> <a href="http://demo2server.in/sites/ci/airbnbclone/rooms/1">Modern Rustic Beach House Pool</a> </span>
+</strong>
+<br>
+<a href="http://demo2server.in/sites/ci/airbnbclone/rooms/1"> Arisipalayam - &#36;250</a>
+<a href="http://demo2server.in/sites/ci/airbnbclone/rooms/1"> Arisipalayam - &#36;6</a>
+</div>
+<span class="thumb_img"> 
+<img src="http://demo2server.in/sites/ci/airbnbclone/images/users/1/userpic_home.jpg" height="40" width="40" />
+</span>
+</div>
+</li>
+<li>
+<img src="http://demo2server.in/sites/ci/airbnbclone/images/8/23.jpg" alt="">
+<div class="caption">
+<div class="heart_but">
+
+<img width="40" height="40" src="images/heart_but.png" alt="no heart image">
+
+</div>
+<div class="room_head">
+<strong>
+<span> <a href="http://demo2server.in/sites/ci/airbnbclone/rooms/8">Private Room in New</a> </span>
+</strong>
+<br>
+<a href="http://demo2server.in/sites/ci/airbnbclone/rooms/8"> Australia - &#36;10</a>
+<a href="http://demo2server.in/sites/ci/airbnbclone/rooms/8"> Australia - &#36;10</a>
+</div>
+<span class="thumb_img"> 
+<img src="http://demo2server.in/sites/ci/airbnbclone/images/users/1/userpic_home.jpg" height="40" width="40" />
+</span>
+</div>
+</li>
+<li>
+<img src="http://demo2server.in/sites/ci/airbnbclone/images/2/14.jpg" alt="">
+<div class="caption">
+<div class="heart_but">
+
+<img width="40" height="40" src="images/heart_but.png" alt="no heart image">
+
+</div>
+<div class="room_head">
+<strong>
+<span> <a href="http://demo2server.in/sites/ci/airbnbclone/rooms/2">New beautiful apartment in Spb</a> </span>
+</strong>
+<br>
+<a href="http://demo2server.in/sites/ci/airbnbclone/rooms/2"> Cundinamarca - &#36;221</a>
+<a href="http://demo2server.in/sites/ci/airbnbclone/rooms/2"> Cundinamarca - &#36;221</a>
+</div>
+<span class="thumb_img"> 
+<img src="http://demo2server.in/sites/ci/airbnbclone/images/users/1/userpic_home.jpg" height="40" width="40" />
+</span>
+</div>
+</li>
+<li>
+<img src="http://demo2server.in/sites/ci/airbnbclone/images/3/17.jpg" alt="">
+<div class="caption">
+<div class="heart_but">
+
+<img width="40" height="40" src="images/heart_but.png" alt="no heart image">
+
+</div>
+<div class="room_head">
+<strong>
+<span> <a href="http://demo2server.in/sites/ci/airbnbclone/rooms/3">Sunny Room in Brooklyn</a> </span>
+</strong>
+<br>
+<a href="http://demo2server.in/sites/ci/airbnbclone/rooms/3"> Gopalbari - &#36;133</a>
+<a href="http://demo2server.in/sites/ci/airbnbclone/rooms/3"> Gopalbari - &#36;217</a>
+</div>
+<span class="thumb_img"> 
+<img src="http://demo2server.in/sites/ci/airbnbclone/images/users/1/userpic_home.jpg" height="40" width="40" />
+</span>
+</div>
+</li>
+<li>
+<img src="http://demo2server.in/sites/ci/airbnbclone/images/64/php_love.jpg" alt="">
+<div class="caption">
+<div class="heart_but">
+
+<img width="40" height="40" src="images/heart_but.png" alt="no heart image">
+
+</div>
+<div class="room_head">
+<strong>
+<span> <a href="http://demo2server.in/sites/ci/airbnbclone/rooms/64">Futon/Couch in Jaipur</a> </span>
+</strong>
+<br>
+<a href="http://demo2server.in/sites/ci/airbnbclone/rooms/64"> Shanthi Nagar - &#36;100</a>
+<a href="http://demo2server.in/sites/ci/airbnbclone/rooms/64"> Shanthi Nagar - &#36;100</a>
+</div>
+<span class="thumb_img"> 
+<img src="http://demo2server.in/sites/ci/airbnbclone/images/users/1/userpic_home.jpg" height="40" width="40" />
+</span>
+</div>
+</li>
+</ul>
+</div> </div>
+</div>
+<div class="search-area">
+<div id="blob-bg" style="display: block; opacity: 0.5;">
+<img width="600" height="180" src="css/templates/blue/images/search_bg.png" alt="">
+</div>
+
+<div class="container" >
+<!-- style=" width:auto;" -->
+<h1>Book Your Accommodation</h1>
+<h2>Best accomodations throughout the world at most economic prices</h2>
+<form id="search_form" class="custom show-search-options position-left" action="http://demo2server.in/sites/ci/airbnbclone/search" method ="post">
+<div class="input-wrapper">
+<input id="location" style="width: 350px;" class="location" type="text" value="Where do you want to go?" name="location" autocomplete="off" onblur="if (this.value == ''){this.value = 'Where do you want to go?'; }"
+   onfocus="if (this.value == 'Where do you want to go?') {this.value = ''; }" placeholder="Where do you want to go?">
+<p id="enter_location_error_message" class="bad" style="display:none;">&#10; Please set location&#10; </p>
+</div>
+<div id="checkinWrapper" class="input-wrapper">
+<input id="checkin" class="checkin search-option ui-datepicker-target" type="text" value="Check in" name="checkin" onblur="if (this.value == ''){this.value = 'Check in'; }"
+   onfocus="if (this.value == 'Check in') {this.value = ''; }" readonly>
+<span class="search-area-icon"></span>
+</div>
+<div id="checkoutWrapper" class="input-wrapper">
+<input id="checkout" class="checkout search-option ui-datepicker-target" type="text" value="Check out" name="checkout" onblur="if (this.value == ''){this.value = 'Check out'; }"
+   onfocus="if (this.value == 'Check out') {this.value = ''; }" readonly>
+<span class="search-area-icon search-area-icon-checkout"></span>
+</div>
+<div class="input-wrapper">
+<div class="custom-select-container">
+<div id="guests_caption" class="custom dropdown small current" aria-hidden="true">1 Guest</div>
+<div class="custom selector" style="margin-top:-25px;"></div>
+<select id="guests" class="search-option small" name="number_of_guests">
+<option value="1">1 Guest</option>
+<option value="2">2 Guests</option>
+<option value="3">3 Guests</option>
+<option value="4">4 Guests</option>
+<option value="5">5 Guests</option>
+<option value="6">6 Guests</option>
+<option value="7">7 Guests</option>
+<option value="8">8 Guests</option>
+<option value="9">9 Guests</option>
+<option value="10">10 Guests</option>
+<option value="11">11 Guests</option>
+<option value="12">12 Guests</option>
+<option value="13">13 Guests</option>
+<option value="14">14 Guests</option>
+<option value="15">15 Guests</option>
+<option value="16">16+ Guests</option>
+</select>
+</div>
+</div>
+<button id="submit_location" class="blue_home" type="submit" value="Search" name="Submit">
+<i class="icon icon-search"></i>
+<!--<img src="css/templates/blue/images/search_icon1.png" />-->
+Search&#10;
+</button>
+</form>
+</div>
+</div>
+<div class="mid_banner_cont">
+<div id="mid_cont" class="midpos">
+<h1> Neighborhood Guides </h1>
+<p> Not sure where to stay? We've created recent view for cities all around the world. </p>
+
+
+<div class="homeImg_cont">
+
+        	<div class="h_pic1 nghbr_list">
+                <a href='http://demo2server.in/sites/ci/airbnbclone/search?location=London' class="nhi_home">
+                    
+                    <img src="http://demo2server.in/sites/ci/airbnbclone/images/neighbourhoods/1/home.jpg"/>
+					<div class="nh_title_hover">London</div>
+                </a>
+           	</div>
+		        	<div class="h_pic2 nghbr_list">
+                <a href='http://demo2server.in/sites/ci/airbnbclone/search?location=Sydney' class="nhi_home">
+                    
+                    <img src="http://demo2server.in/sites/ci/airbnbclone/images/neighbourhoods/2/home.jpg"/>
+					<div class="nh_title_hover">Sydney</div>
+                </a>
+           	</div>
+		        	<div class="h_pic3 nghbr_list">
+                <a href='http://demo2server.in/sites/ci/airbnbclone/search?location=Paris' class="nhi_home">
+                    
+                    <img src="http://demo2server.in/sites/ci/airbnbclone/images/neighbourhoods/6/home.jpg"/>
+					<div class="nh_title_hover">Paris</div>
+                </a>
+           	</div>
+		        	<div class="h_pic4 nghbr_list">
+                <a href='http://demo2server.in/sites/ci/airbnbclone/search?location=Boston' class="nhi_home">
+                    
+                    <img src="http://demo2server.in/sites/ci/airbnbclone/images/neighbourhoods/8/home.jpg"/>
+					<div class="nh_title_hover">Boston</div>
+                </a>
+           	</div>
+		        	<div class="h_pic5 nghbr_list">
+                <a href='http://demo2server.in/sites/ci/airbnbclone/search?location=Mexico City' class="nhi_home">
+                    
+                    <img src="http://demo2server.in/sites/ci/airbnbclone/images/neighbourhoods/10/home.jpg"/>
+					<div class="nh_title_hover">Mexico City</div>
+                </a>
+           	</div>
+		
+<div class="clr"></div>
+
+</div>
+
+</div>
+<!--
+<div id="list_home">
+    <div class="travel">
+    	<h3> Travel </h3>
+    	<p> From apartments and rooms to tree houses and boats: stay in unique spaces in 192 countries.</p>
+    	<a href="http://demo2server.in/sites/ci/airbnbclone/pages/view/travel"> See most booked <span> >> </span> </a>
+    </div>
+
+    <div class="host">
+    	<h3> Host  </h3>
+    	<p>  Renting out your unused space could pay your bills or fund your next vacation. </p>
+    	<a href="http://demo2server.in/sites/ci/airbnbclone/pages/view/why_host"> Learn more about hosting >> </a>
+    </div>
+
+    <div class="work">
+    	<h3> How It Works </h3>
+    	<p> From our worldwide customer support team to our unique review system, we've got your back.</p>
+    	<a href="http://demo2server.in/sites/ci/airbnbclone/info/how_it_works"> Visit the trust & safety center >> </a>
+    </div>
+</div>
+-->
+</div>
+<!--end air-->
+<!--Bottom Banner Starts-->
+<section class="bot_banner">
+	<img src="http://demo2server.in/sites/ci/airbnbclone/images/slider_image1.jpg">	
+    <div class="banner_cont">
+    	<h3>anywhere in world</h3>        
+   		<div><h4>we get you the best accomodation</h4></div>
+    </div>
+</section>
+<!--Bottom Banner Ends-->
+<section class="container prefooter_outer">
+	
+    <section class="pre_footercont">
+    	<figure>
+        	<img src="http://demo2server.com/sites/ci/airbnb/images/neighbourhoods/6/home.jpg">	
+        	<figcaption>
+                <h3>Vestibulum arcu erat</h3>
+                <p>Suspendisse potenti. Quisque ut metus odio. Sed vehicula tempor volutpat.  </p>
+            </figcaption>
+        </figure>
+    </section>		
+    
+    
+	<section class="pre_footercont">
+    	<figure>
+        	<img src="http://demo2server.com/sites/ci/airbnb/images/neighbourhoods/8/home.jpg">
+        	<figcaption>
+                <h3>Donec eu</h3>
+                <p>Suspendisse potenti. Quisque ut metus odio. Sed vehicula tempor volutpat.  </p>
+            </figcaption>
+        </figure>
+    </section>		
+    
+    
+	<section class="pre_footercont">
+    	<figure>
+        	<img src="http://demo2server.com/sites/ci/airbnb/images/neighbourhoods/9/home.jpg">	
+        	<figcaption>
+                <h3>Aliquam interdum sem</h3>
+                <p>Suspendisse potenti. Quisque ut metus odio. Sed vehicula tempor volutpat.  </p>
+            </figcaption>
+        </figure>
+    </section>		
+    
+    
+	<section class="pre_footercont">
+    	<figure>
+        	<img src="http://demo2server.com/sites/ci/airbnb/images/neighbourhoods/2/home.jpg">	
+        	<figcaption>
+                <h3>Etiam </h3>
+                <p>Suspendisse potenti. Quisque ut metus odio. Sed vehicula tempor volutpat.  </p>
+            </figcaption>
+        </figure>
+    </section>		
+    
+</section>
+
+ <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      // Slideshow 4
+      $("#slider4").responsiveSlides({
+        auto: true,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+    });
+  </script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+preloader();
+$("#guests").change(function(){
+	var guest=$("#guests").val();
+	var temp_guest="";
+	if(guest=="1")
+	{
+		temp_guest=guest+" "+"Guest";
+	}
+	else if(guest=="16")
+	{
+		temp_guest=guest+"+ "+"Guests";
+	}
+	else
+	{
+		temp_guest=guest+" "+"Guests";
+	}
+	$("#guests_caption").html(temp_guest);
+});
+})
+// Home Page Checkin Checkout date function below lines jQuery
+jQuery(document).ready(function() {
+Translations.review = "review";
+Translations.reviews = "reviews";
+Translations.night = "night";
+var opts = {};
+CogzidelHomePage.init(opts);
+CogzidelHomePage.defaultSearchValue = "Where are you going?";
+});
+
+
+	jQuery(document).ready(function() {
+		Cogzidel.init({userLoggedIn: false});
+	});
+
+	Cogzidel.FACEBOOK_PERMS = "email,user_birthday,user_likes,user_education_history,user_hometown,user_interests,user_activities,user_location";	
+</script>
+<script language="JavaScript">
+function preloader() 
+{
+     // counter
+     var i = 0;
+     // create object
+     imageObj = new Image();
+     // set image list
+     images = new Array();
+	      images[0]="http://demo2server.in/sites/ci/airbnbclone/images/1/ef3e4692d7704ec4a205976290f7ceaf"
+	      images[1]="http://demo2server.in/sites/ci/airbnbclone/images/8/23.jpg"
+	      images[2]="http://demo2server.in/sites/ci/airbnbclone/images/2/14.jpg"
+	      images[3]="http://demo2server.in/sites/ci/airbnbclone/images/3/17.jpg"
+	      images[4]="http://demo2server.in/sites/ci/airbnbclone/images/64/php_love.jpg"
+	      // start preloading
+     for(i=0; i<=4; i++) 
+     {
+          imageObj.src=images[i];
+     }
+} 
+
+$(document).ready(function(){
+$("#view_most").html('<img src="http://demo2server.in/sites/ci/airbnbclone/images/loader.gif">');
+})
+</script>
+<script type="text/javascript">
+
+$(document).ready(function () {
+	/*====Safari check====*/
+	if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) 
+	{
+		$('#slider4, .callbacks_nav').css('display','block')		
+	}
+	/*====Safari check====*/
+	
+      var input = document.getElementById('location');
+    autocomplete = new google.maps.places.Autocomplete(input);    
+    google.maps.event.addListener(autocomplete, 'place_changed', function() {
+ 
+    });
+});
+
+
+</script></div><script>
+	$(document).ready(function(){
+		$('.clsShow_Notification').fadeOut(5000);
+	});
+</script>
+
+
+
+  <div class="clr"></div>
+  <div class="foot_bg">
+<div id="Footer">
+
+		<div id="footer" class="row">
+<div class="span3 clearfix" style="margin-left:0; width:230px;">
+<h5>Language Settings </h5>
+<div class="clsFloatLeft">
+<div id="language">
+<div id="language_display" class="rounded_top">
+<div class="football_img"> <img class="img_lang" src="http://demo2server.in/sites/ci/airbnbclone/css/templates/blue/images/football.png" /> </div>
+<div id="language_display_currency" class="language_set"> &nbsp; English</div></div>
+<div class="arrow_sym">  </div>
+<div id="language_selector_container" class="single_Lang" style="display:none;">
+<div id="language_selector">
+<ul id="locale2">
+<li class="language option" id="language_selector_en" name="en">English</li> <li class="language option" id="language_selector_fr" name="fr">French</li> <li class="language option" id="language_selector_it" name="it">Italian</li> <li class="language option" id="language_selector_gr" name="gr">German</li> <li class="language option" id="language_selector_po" name="po">Portuguese</li> <li class="language option" id="language_selector_sp" name="sp">Spanish</li> 						
+</ul>
+</div>
+</div>																								
+</div></div>
+
+<div class="clsFloatLeft">
+<div id="currency">
+<div id="currency_display" class="rounded_top_new">
+<div id="currency_display_currency" class="language_set1"> &#36; USD</div></div>
+<div class="arrow_sym"> </div>
+<div id="currency_selector_container" class="single_Lang" style="display:none;">
+<div id="currency_selector">
+<ul id="locale2">
+		
+<li name="GBP" id="currency_selector_GBP" class="currency option"> &pound; GBP </li>
+		
+<li name="EUR" id="currency_selector_EUR" class="currency option"> &euro; EUR </li>
+		
+<li name="AUD" id="currency_selector_AUD" class="currency option"> &#36; AUD </li>
+		
+<li name="SGD" id="currency_selector_SGD" class="currency option"> &#36; SGD </li>
+		
+<li name="SEK" id="currency_selector_SEK" class="currency option"> kr SEK </li>
+		
+<li name="DKK" id="currency_selector_DKK" class="currency option"> kr DKK </li>
+		
+<li name="MXN" id="currency_selector_MXN" class="currency option"> $ MXN </li>
+		
+<li name="BRL" id="currency_selector_BRL" class="currency option"> R$ BRL </li>
+		
+<li name="MYR" id="currency_selector_MYR" class="currency option"> RM MYR </li>
+		
+<li name="PHP" id="currency_selector_PHP" class="currency option"> P PHP </li>
+		
+<li name="CHF" id="currency_selector_CHF" class="currency option"> &euro; CHF </li>
+					
+</ul>
+</div>
+</div>																								
+</div>		</div>
+
+</div>
+<div class="span3" style="margin-left:25px;">
+<h5>Discover </h5>
+<ul class="unstyled js-footer-links">
+
+<li>
+<a href="http://demo2server.in/sites/ci/airbnbclone/info/how_it_works">How it works</a>
+</li>
+<li>
+<a href="http://demo2server.in/sites/ci/airbnbclone/pages/view/why_host">Why Host</a>
+</li>
+<li>
+<a href="http://demo2server.in/sites/ci/airbnbclone/pages/view/social">Social Connections</a>
+</li>
+<li>
+<a href="http://demo2server.in/sites/ci/airbnbclone/pages/view/trust_safety">Trust & Safety</a>
+</li></ul>
+</div>
+<div class="span3">
+<h5>Company</h5>
+<ul class="unstyled js-footer-links">
+<li>
+<a href="http://demo2server.in/sites/ci/airbnbclone/pages/view/about">About</a>
+</li>
+<li>
+<a href="http://demo2server.in/sites/ci/airbnbclone/pages/contact">Contact us</a>
+</li>
+<li>
+<a href="http://demo2server.in/sites/ci/airbnbclone/pages/view/press">Press</a>
+</li>
+<li>
+<a href="http://demo2server.in/sites/ci/airbnbclone/pages/faq">FAQ</a>
+</li>
+<li>
+<a href="http://demo2server.in/sites/ci/airbnbclone/pages/view/policies">Policies</a>
+</li>
+<li>
+<a href="http://demo2server.in/sites/ci/airbnbclone/pages/view/responsible_hosting">Responsible Hosting</a>
+</li>
+<li>
+<a href="http://demo2server.in/sites/ci/airbnbclone/pages/view/terms">Terms & Privacy</a>
+</li>
+</ul>
+</div>
+<div class="span3">
+<h5>Join us on</h5>
+<ul class="unstyled js-external-links">
+<li>
+<a target="_blank" href="#">Twitter</a>
+</li>
+<li>
+<a target="_blank" href="#">Facebook</a>
+</li>
+<li>
+<a target="_blank" href="#">Google</a>
+</li>
+<li>
+<a target="_blank" href="#">YouTube</a>
+</li>
+</ul>
+
+
+<div id="copyright"> Powered by <a target="_blank" href="http://www.theninehertz.com">The Nine Hertz india Private Limited</a> &amp; Driven by <a target="_blank" href="http://www.theninehertz.com/"> The Nine Hertz india Private Limited</a> </div>
+
+
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
